@@ -37,13 +37,6 @@
                             mdi-file
                         </v-icon>
                     </template>
-                    <template v-slot:expanded-item="{ headers, item }">
-                    <td :colspan="headers.length">
-                        <h2>NOTE : </h2>
-                        <br>
-                        {{ item.note }}
-                    </td>
-                    </template>
                 </v-data-table>
             </v-card>
             
